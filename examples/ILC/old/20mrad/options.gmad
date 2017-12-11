@@ -1,0 +1,17 @@
+! standard options for runing bdsim
+
+
+option, beampipeRadius = 6 * cm,
+        outerDiameter = 1.0 * m,
+        tunnelRadius= 1.0 * m,
+        beampipeThickness = 0.1 * cm,
+        thresholdCutCharged = 1 * MeV,
+        thresholdCutPhotons = 1 * MeV;
+
+
+!option,physicsList="hadronic";
+option,physicsList="em";
+
+!option,stopTracks=1;
+!option,storeTrajectory=1;
+option,ngenerate=50;

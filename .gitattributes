@@ -1,0 +1,4 @@
+examples/LHC/lhc.rst filter=lfs diff=lfs merge=lfs -text
+examples/LHC/lhcinj filter=lfs diff=lfs merge=lfs -text
+examples/LHC/lhcring filter=lfs diff=lfs merge=lfs -text
+examples/LHC/CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
